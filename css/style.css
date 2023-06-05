@@ -607,6 +607,13 @@ header .navbar .navbar-nav li .login-btn {
   color: #fff;
 }
 
+#portfolio p{
+  text-align: center;
+  color: #fdfdfd;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
 #portfolio .more {
   border: 2px solid #fff;
   opacity: 1;
@@ -667,11 +674,11 @@ header .navbar .navbar-nav li .login-btn {
   transition: all 0.3s;
 }
 
-#portfolio .featuredPropBox ul li:nth-child(1) {
-  background-image: url("https://i.ibb.co/ZmtmLGK/a.jpg");
+#portfolio .featuredPropBox ul li{
+  background-image: url("../images/portfolio_bg.jpg");
 }
 
-#portfolio .featuredPropBox ul li:nth-child(2) {
+/* #portfolio .featuredPropBox ul li:nth-child(2) {
   background-image: url("https://i.ibb.co/pzGysVS/b.jpg");
 }
 
@@ -701,7 +708,7 @@ header .navbar .navbar-nav li .login-btn {
 
 #portfolio .featuredPropBox ul li:nth-child(9) {
   background-image: url("https://i.ibb.co/RhZgpSG/20845.jpg");
-}
+} */
 
 #portfolio .featuredPropBox ul li .fplogo {
   left: 50%;
